@@ -197,12 +197,6 @@ This project is primarily for learning and experimentation, but suggestions and 
 
 ---
 
-## 📜 License
-
-MIT License
-
----
-
 ## ⭐ Acknowledgements
 
 * Ollama (local LLM runtime)
