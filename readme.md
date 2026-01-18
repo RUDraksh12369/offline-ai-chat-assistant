@@ -9,36 +9,36 @@ This project is designed to explore **LLM integration**, **agent-based architect
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🧠 AI & Memory
+###  AI & Memory
 - Runs **fully offline** using open-source LLMs via **Ollama**
 - Global long-term memory (remembers name, preferences across chats)
 - Conversation-based short-term memory
 - Configurable response creativity (temperature)
 - Safe token limits for stability
 
-### 💬 Chat Experience
+### Chat Experience
 - Multiple chat sessions (Chat 1–Chat 5)
 - Automatic deletion of oldest chats after limit
 - Continue conversations anytime
 - Delete all chats (keep memory)
 - Hard reset (wipe everything)
 
-### 🖥️ Desktop UI
+###  Desktop UI
 - Modern PySide6 GUI
 - Sidebar for chat history (ChatGPT-style)
 - Smooth typing / streaming effect
 - No UI freezing (background threads)
 
-### ⌨️ Smart Autocomplete
-- Mobile-style **word suggestion chips**
+### Smart Autocomplete
+- Moble-style **word suggestion chips**
 - Suggests complete words (not letters)
 - Debounced & async (no lag)
 - Click-to-complete input
 - Fully offline autocomplete logic
 
-### 🛠️ Agent + Tools
+###  Agent + Tools
 - Intelligent routing between:
   - Chat (LLM)
   - System tools (open apps, read files)
@@ -48,7 +48,7 @@ This project is designed to explore **LLM integration**, **agent-based architect
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 
@@ -68,7 +68,7 @@ This project is designed to explore **LLM integration**, **agent-based architect
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 - Python **3.10+** (tested on 3.13)
 - Ollama installed and running
@@ -87,8 +87,8 @@ pip install PySide6 requests
 
 ## 🚀 Getting Started
 
-### 1️⃣ Install Ollama
-👉 https://ollama.com/
+### 1 Install Ollama
+https://ollama.com/
 
 Pull a model:
 ```bash
@@ -103,7 +103,7 @@ ollama serve
 
 ---
 
-### 2️⃣ Clone the Repository
+### 2 Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/offline-ai-chat-assistant.git
@@ -112,7 +112,7 @@ cd offline-ai-chat-assistant
 
 ---
 
-### 3️⃣ Run the App
+### 3 Run the App
 
 ```bash
 python main.py
@@ -120,7 +120,7 @@ python main.py
 
 ---
 
-## 🧪 Example Commands
+##  Example Commands
 
 ### Normal Chat
 
@@ -148,7 +148,7 @@ The assistant will remember this **across chats**.
 
 ---
 
-## 🧠 Design Philosophy
+##  Design Philosophy
 
 * **Offline-first** → privacy & control
 * **Explicit tools** → no accidental actions
@@ -163,7 +163,7 @@ The assistant will remember this **across chats**.
 
 ---
 
-## 🔒 Privacy
+##  Privacy
 
 * No cloud APIs
 * No telemetry
@@ -172,7 +172,7 @@ The assistant will remember this **across chats**.
 
 ---
 
-## 📌 Limitations
+##  Limitations
 
 * Depends on local model quality
 * Not intended for large-scale deployment
@@ -180,7 +180,7 @@ The assistant will remember this **across chats**.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Markdown & code block rendering
 * Auto-continue long responses
@@ -191,13 +191,13 @@ The assistant will remember this **across chats**.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This project is primarily for learning and experimentation, but suggestions and improvements are welcome.
 
 ---
 
-## ⭐ Acknowledgements
+##  Acknowledgements
 
 * Ollama (local LLM runtime)
 * Open-source LLM community
